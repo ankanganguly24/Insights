@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+
+body {
+   font-family: 'Source Sans 3', sans-serif;
+   font-size: 16px;
+   color: #77787e;
+   -webkit-font-smoothing: antialiased;
+   line-height: 1.647em;
+   background-color: #f8f5f2;
+}
+
+.section-header{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #303136;
+    text-transform: uppercase;
+    line-height: 1.1;
+    
+ }
+
+ .section-sub-header{
+    color: #77787e;
+    text-align: center;
+    margin-bottom: 60px;
+ }
+
+/* Header */
+.header-info-color{
+   color: #00cb8b;
+   font-size: 12px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+header{
+   background-color: #000000;
+
+}
+
+.header-info{
+   font-size: 12px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #fff;
+}
+
+.header-greet{
+   font-size: 12px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #77787e;
+}
+
+/*Header End*/
+
+/* Navbar Start */
+.main-nav{
+   background-color: #000000;
+}
+
+nav ul li {
+   
+   --bs-nav-link-color: white !important;
+   text-transform: uppercase;
+   font-size: 12px;
+   font-weight: 700;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   letter-spacing: 1px;
+}
+
+.nav-para{
+    margin-bottom: 30px;
+    line-height: 1.647em;
+    color: white;
+    width: 50%;
+}
+
+
+
+.lead-para{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 900
+  }
+
+.hero-msg{
+   padding-top: 10%;
+   padding-bottom: 10%;
+}
+
+.primary-btn{
+    font-size: 12px;
+    padding: 16px 44px 16px 34px;
+    border-radius: 2px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: #ffeb8c;
+    color: #2e2d28;
+    border-bottom: 2px solid #ffe465;
+}
+
+
+
+@media  (max-width: 768px) {
+   .nav-para{
+      width: 100%;
+   }
+
+   .lead-para{
+      width: 100%;
+   }
+
+   .hero-msg{
+      padding-top: 10%;
+      padding-bottom: 10%;
+   }
+ .navbar-toggler-icon{
+   margin-left: 80px;
+ }
+
+ nav ul li{
+   padding-bottom: 0px;
+ }
+   
+}
+
+
+.services{
+    background-color: #f8f5f2;
+    color: #77787e;
+    padding-top: 80px;
+    padding-bottom: 80px;
+ }
+
+ .section-header{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #303136;
+    text-transform: uppercase;
+    line-height: 1.1;
+    
+ }
+
+ .section-sub-header{
+    text-align: center;
+    margin-bottom: 60px;
+ }
+
+ .service-card{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    background-color: #fff;
+ }
+
+ .service-card-title{
+    color: #303136;
+    line-height: 24px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+ }
+
+ .service-card-body{
+    padding: 50px;
+ }
+
+ .card-anchor{
+    color: #6b42bc;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+ }
+
+    .card-anchor:hover{
+        color: #00cb8b;
+    }
+    .page-breadcrumb{
+      background-color: #f0ebe6;
+      padding-top: 20px;
+  }
+  
+  .breadcrumb a{
+      text-decoration: none;
+      font-size: 11px;
+      text-transform: uppercase;
+      padding: 4px 0px;
+      font-weight: 700;
+      color: #6b42bc;
+      margin-right: 4px;
+      margin-left: 4px;
+  
+  }
+  
+  .breadcrumb .active{
+      color: #777;
+  }
+
+  .award-section{
+   padding-top: 80px;
+   padding-bottom: 80px;
+   background-color: #00cb8b;
+   text-align: center;
+   margin-top: -60px;
+
+}
+
+.award-content h1{
+   font-weight: 900;
+   margin-bottom: 20px;
+   font-size: 38px;
+   color: #fff;
+}
+
+.award-content i{
+   font-size: 50px;
+   color: #fff;
+   margin-bottom: 20px;
+   margin-right: 18px;
+   
+
+}
+
+.award-content small{
+   font-weight: 700;
+   font-size: 14px;
+   color: #fff;
+   margin-bottom: 20px;
+}
+
+.careers-section{
+   padding-top: 80px;
+   padding-bottom: 80px;
+   background-color: #f8f5f2;
+}
+
+.footer-section{
+   padding-top: 80px;
+   padding-bottom: 80px;
+   color:#77787e;
+   background-color: #29292c;
+   text-align: center;
+}
+
+.footer-head{
+   color: white;
+   font-size: 25px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   margin-bottom: 30px;
+
+}
+
+.footer-text{
+   color: #77787e;
+
+}
+
+.footer-header{
+   color: white;
+   font-size: 16px;
+}
+
+.input-form{
+   border-radius: 2px;
+   border: 1px solid #e7e1da;
+   width: 100%;    
+}
+
+.footer-btn{
+ background-color: #444;
+ color: white;
+ padding: 11px;
+ border: none;
+}
+
+.icon-footer{
+   background-color: #38383c;
+   padding: 12px 14px;
+   border-radius: 2px;
+   color: #58585d;
+   display: inline-block;
+   line-height: 0;
+   margin-bottom: 5px;
+   margin-right: 10px;
+   cursor: pointer;
+}
