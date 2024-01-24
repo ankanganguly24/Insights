@@ -36,6 +36,16 @@ body {
    text-transform: uppercase;
 }
 
+@media screen and (max-width: 600px){
+    .header-info-color{
+        display: none;
+    }
+.pricing-card{
+    margin-right: 5
+}
+
+}
+
 header{
    background-color: #000000;
 
@@ -170,7 +180,7 @@ nav ul li {
     border: 2px solid #e8e3df;
     padding: 30px;
     background-color: #fff;
-    margin-left: 20px;
+    
 }
 
 .card h1{
@@ -196,6 +206,10 @@ line-height: 1.647em;
     font-size: 28px;
     font-weight: 800;
     letter-spacing: -1px
+}
+
+.listnone{
+    padding-left: 1rem  !important;
 }
 
 .listnone li{

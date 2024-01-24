@@ -36,6 +36,26 @@ body {
    text-transform: uppercase;
 }
 
+@media (max-width: 600px) {
+
+   .header-info-color{
+     display: none;
+   }
+
+   .fit-img{
+    
+    display: none;
+    overflow-x: hidden;
+
+   }
+
+   .mail-text{
+    font-size: 22px;
+   }
+   
+ }
+
+
 header{
    background-color: #000000;
 
@@ -253,6 +273,29 @@ padding-left: 30px;
     position: relative;
     overflow: hidden;
 display: inline-block;
+}
+
+@media (max-width: 600px) {
+    .history-caption{
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 0px;
+        transform: translate(0%, 0%);
+    }
+
+    .our-history{
+        padding-bottom: 80px;
+        
+    }
+    
+
+
+    .img-about{
+        width: 100%;
+    }
+
+    
+    
 }
 
 /*Awards Section Start */

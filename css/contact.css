@@ -38,6 +38,15 @@ header{
    color: #77787e;
 }
 
+
+@media screen and (max-width: 600px){
+    .header-info-color{
+        display: none;
+    }
+
+    
+   }
+
 /*Header End*/
 
 /* Navbar Start */

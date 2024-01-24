@@ -40,6 +40,20 @@
 
  /*Header End*/
 
+ @media  (max-width: 768px) {
+    .header-info{
+      font-size: 10px;
+    }
+ 
+    .header-greet{
+      font-size: 10px;
+    }
+ 
+    .header-info-color{
+      display: none;
+    }
+  }
+
  /* Navbar Start */
  .main-nav{
     background-color: #000000;
@@ -177,7 +191,11 @@ nav ul li {
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
     background-color: #fff;
  }
-
+@media screen and (max-width: 600px){
+   .service-card{
+      margin-bottom: 30px;
+   }
+}
  .service-card-title{
     color: #303136;
     line-height: 24px;
@@ -229,6 +247,23 @@ nav ul li {
         position: relative;
         
     }
+
+    @media screen and (max-width: 600px){
+      .display-img{
+         display: none;
+         overflow-x: hidden;
+      }
+      
+      .about-us-cta {
+         padding: 33px;
+      }
+
+      .testimonial-card{
+         margin-bottom: 30px;
+      }
+   }
+
+   
 
     .lead-text{
         line-height: 28px;
@@ -340,6 +375,11 @@ nav ul li {
     color:#77787e;
     background-color: #29292c;
     text-align: center;
+}
+
+@media screen and (max-width: 600px){
+
+   
 }
 
 .footer-head{

@@ -36,6 +36,24 @@ body {
    text-transform: uppercase;
 }
 
+@media screen and (max-width: 600px){
+    .header-info-color{
+        display: none;
+    }
+
+    .admin-card{
+      display: none;
+    }
+
+    .search-query{
+      margin-top: 40px;
+    }
+
+    .service-card{
+      margin-bottom: 30px;
+    }
+   }
+
 header{
    background-color: #000000;
 

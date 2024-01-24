@@ -36,6 +36,13 @@ body {
    text-transform: uppercase;
 }
 
+@media  (max-width: 600px) {
+
+   .header-info-color{
+     display: none;
+   }
+ }
+
 header{
    background-color: #000000;
 
