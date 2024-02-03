@@ -1,8 +1,7 @@
- @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
  body {
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 16px;
     color: #77787e;
     -webkit-font-smoothing: antialiased;
@@ -56,7 +55,8 @@
 
  /* Navbar Start */
  .main-nav{
-    background-color: #000000;
+    background-image: url("./Images/header\ image.avif");
+      background-size: cover;
  }
 
 nav ul li {
@@ -71,18 +71,30 @@ nav ul li {
  }
 
  .nav-para{
-    line-height: 22px;
-    letter-spacing: 0px;
-    font-weight: 400;
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    width: 50%;
+   color: #FFF;
+   width: 585px;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+ }
+
+
+ .header-text{
+   color: #FFF;
+   width: 40%;
+   font-family: Poppins;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 54px;
+
  }
 
  .lead-para{
     line-height: 42px;
-    letter-spacing: 0px;
+
     font-weight: 200;
     font-size: 40px;
     text-align: left;
@@ -96,14 +108,23 @@ nav ul li {
  }
  
  .primary-btn{
-    color: #fff;
-    background-color: #00cb8b;
-    padding: 16px 44px 16px 34px;
-    font-size: 12px;
-    font: 12px Raleway, sans-serif;
-    font-weight: 700;
-    border: none;
+   display: flex;
+   
+   padding: 16px 27px;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+   border-radius: 1px;
+   border: none;
+   background-color: #00cb8b;
     text-transform: uppercase;
+    color: #FFF;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
  }
 
  
@@ -144,15 +165,19 @@ nav ul li {
  }
 
  .secondary-btn{
-    font-size: 12px;
-    padding: 16px 44px 16px 34px;
-    background-color: #ffeb8c;
-    color: #2e2d28;
-    font-weight: 900;
-    margin-bottom: 5px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    border: none;
+   padding: 16px 27px;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+   border: 1px solid white;
+background-color: transparent;
+   color: #FFF;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
  }
 
  .call-to-action{
@@ -171,20 +196,25 @@ nav ul li {
  }
 
  .section-header{
+   font-style: poppins;
     text-align: center;
     margin-bottom: 10px;
-    font-size: 30px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #303136;
+    font-size: 36px;
+    font-weight: 700;
+   
+    color: #181818;
     text-transform: uppercase;
     line-height: 1.1;
     
  }
 
  .section-sub-header{
-    text-align: center;
+   text-align: center;
+   margin-left: 25%;
     margin-bottom: 60px;
+    width: 50%;
+    margin-top: 12px;
+    margin-bottom: 50px;
  }
 
  .service-card{
@@ -202,16 +232,20 @@ nav ul li {
     font-size: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
+    
+    font-weight: 650;
+ }
+
+ .service-card-text{
+   font-weight: 400;
+line-height: 32px;
  }
 
  .service-card-body{
-    padding: 50px;
+    padding: 16px;
  }
-
  .card-anchor{
-    color: #6b42bc;
+    color: #00cb8b;
     font-weight: 700;
     font-size: 13px;
     text-transform: uppercase;
@@ -221,6 +255,12 @@ nav ul li {
 
     .card-anchor:hover{
         color: #00cb8b;
+    }
+
+    .caraousel-btn{
+      text-align: center;
+      margin-top: 40px;
+      cursor: pointer;
     }
 
     /* Services End */
@@ -235,17 +275,26 @@ nav ul li {
     }
 
     .about-us-card{
-        padding: 40px;
-        border-right: 1px solid #e0dad2;
+        padding: 16px;
+        margin-bottom: 60px;
+        
     }
 
     .about-us-cta{
-        padding: 80px;
+        padding: 60px;
         background-color: white;
-        margin-bottom: -120px;
+        margin-bottom: -260px;
         box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
         position: relative;
-        
+    }
+
+    .cta-text{
+      font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
     }
 
     @media screen and (max-width: 600px){
@@ -275,19 +324,21 @@ nav ul li {
     .btn-default{
         color: #fff;
         border-bottom: 2px solid #01ba80;
+      
     }
 
     .btn-default-2{
         background-color: #6840b3;
     color: #fff;
     border: none;
-    border-bottom: 2px solid #5b35a8
+    border-bottom: 2px solid #5b35a8;
+      
     }
     /* About us End */
 
     /* Our Advisor Section */
     .our-advisor-section{
-        padding-top: 80px;
+        padding-top: 250px;
         padding-bottom: 80px;
         color:#77787e;
         background-color: #f8f5f2;
@@ -300,8 +351,17 @@ nav ul li {
     font-size: 12px;
     font-weight: 900;
     line-height: 16px;
-    letter-spacing: 1px;
+   
     }
+
+    .secondary-card-header{
+      font-size: 27px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+color:#181818;
+    }
+
 
     .card-secondary{
         background-color: #f8f5f2;;
@@ -319,16 +379,11 @@ nav ul li {
     text-align: center;
 }
 
-.post-meta{
-    font-size: 12px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #747179;
-    line-height: 16px;
-    padding: 20px 40px;
-    border-top: 1px solid #e7e1da;
-    background-color: #f6f3f0;
+.meta-text-news{
+   font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
 }
 
 /* News Section End */
@@ -354,17 +409,17 @@ nav ul li {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    letter-spacing: 1px;
+    
 
 }
 
 .testimonial-text{
-    font-style: italic;
-    color: #605e64;
-    font-size: 19px;
-    margin-bottom: 60px;
-    margin-top: 30px;
-    line-height: 29px;
+   text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 32px;
 }
 
 /*Testimonial end */
@@ -386,9 +441,22 @@ nav ul li {
     color: white;
     font-size: 25px;
     font-weight: 600;
-    letter-spacing: 1px;
+    
     margin-bottom: 30px;
 
+}
+
+.footer-link p a{
+      color: white;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      margin-bottom: 30px;
+      text-decoration: none;
+}
+
+.footer-link p a:hover{
+    color: #00cb8b;
 }
 
 .footer-text{
@@ -418,7 +486,7 @@ nav ul li {
     background-color: #38383c;
     padding: 12px 14px;
     border-radius: 2px;
-    color: #58585d;
+    color: white;
     display: inline-block;
     line-height: 0;
     margin-bottom: 5px;
